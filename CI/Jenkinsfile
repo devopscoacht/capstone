@@ -18,7 +18,7 @@ pipeline {
                     checkout([
                         $class: 'GitSCM',
                         branches: [[name: '*/main']],
-                        userRemoteConfigs: [[url: 'https://github.com/your_username/repo_name.git']]
+                        userRemoteConfigs: [[url: 'https://github.com/devopscoacht/capstone/tree/master/INFRA']]
                     ])
                 }
             }
